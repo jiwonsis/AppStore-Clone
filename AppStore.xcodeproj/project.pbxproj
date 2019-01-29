@@ -13,6 +13,8 @@
 		29D74E6F22008B32007D5DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D74E6E22008B32007D5DD6 /* Assets.xcassets */; };
 		29D74E7222008B32007D5DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D74E7022008B32007D5DD6 /* LaunchScreen.storyboard */; };
 		29D74E7D22008B32007D5DD6 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D74E7C22008B32007D5DD6 /* AppStoreTests.swift */; };
+		29D74E8822008EEA007D5DD6 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D74E8722008EEA007D5DD6 /* CategoryCell.swift */; };
+		29D74E8A22009FA2007D5DD6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D74E8922009FA2007D5DD6 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		29D74E7822008B32007D5DD6 /* AppStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D74E7C22008B32007D5DD6 /* AppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
 		29D74E7E22008B32007D5DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D74E8722008EEA007D5DD6 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		29D74E8922009FA2007D5DD6 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				29D74E6722008B31007D5DD6 /* AppDelegate.swift */,
 				29D74E6922008B31007D5DD6 /* ViewController.swift */,
+				29D74E8722008EEA007D5DD6 /* CategoryCell.swift */,
+				29D74E8922009FA2007D5DD6 /* Models.swift */,
 				29D74E6B22008B31007D5DD6 /* Main.storyboard */,
 				29D74E6E22008B32007D5DD6 /* Assets.xcassets */,
 				29D74E7022008B32007D5DD6 /* LaunchScreen.storyboard */,
@@ -199,6 +205,8 @@
 			files = (
 				29D74E6A22008B31007D5DD6 /* ViewController.swift in Sources */,
 				29D74E6822008B31007D5DD6 /* AppDelegate.swift in Sources */,
+				29D74E8822008EEA007D5DD6 /* CategoryCell.swift in Sources */,
+				29D74E8A22009FA2007D5DD6 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
